@@ -1,1 +1,1 @@
-"""Copper Mountain VNA capture helpers."""
+"""VNA sweep capture helpers."""
