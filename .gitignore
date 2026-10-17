@@ -1,5 +1,18 @@
-/vna/__pycache__/
 *.pyc
 *.pyo
 *.pyd
-__pycache__/
+*/__pycache__/
+/control/
+/data/
+/mri/
+/hardware/
+/plan/
+/research/
+/tmp/
+2 - 5P06 - Team Charter (1).pdf
+Progress Report 1.pdf
+Self-Developed Project Proposal - Team 9 (2).pdf
+Team9_Justification_of_Disciplinary_Focus.pdf
+
+/capacitor_array_sim/test_*.py
+/capacitor_array_sim/combinations.py
