@@ -48,6 +48,7 @@ class CapacitorSimulator(tk.Tk):
     NODE_Y = 64
     COLUMN_SPACING = 145
     ROW_SPACING = 105
+    CANVAS_PADDING = 24
 
     def __init__(self):
         super().__init__()
@@ -90,17 +91,8 @@ class CapacitorSimulator(tk.Tk):
         canvas_frame = ttk.Frame(main, padding=1, relief="solid")
         canvas_frame.pack(fill="both", expand=True)
         self.canvas = tk.Canvas(canvas_frame, bg="white", highlightthickness=0)
-        vertical_scroll = ttk.Scrollbar(canvas_frame, orient="vertical",
-                                        command=self.canvas.yview)
-        horizontal_scroll = ttk.Scrollbar(canvas_frame, orient="horizontal",
-                                          command=self.canvas.xview)
-        self.canvas.configure(yscrollcommand=vertical_scroll.set,
-                              xscrollcommand=horizontal_scroll.set)
-        self.canvas.grid(row=0, column=0, sticky="nsew")
-        vertical_scroll.grid(row=0, column=1, sticky="ns")
-        horizontal_scroll.grid(row=1, column=0, sticky="ew")
-        canvas_frame.rowconfigure(0, weight=1)
-        canvas_frame.columnconfigure(0, weight=1)
+        self.canvas.pack(fill="both", expand=True)
+        self.canvas.bind("<Configure>", self._draw)
 
         result_frame = ttk.Frame(main)
         result_frame.pack(fill="x", pady=(14, 0))
@@ -133,14 +125,9 @@ class CapacitorSimulator(tk.Tk):
         return (self.NODE_X + node.column * self.COLUMN_SPACING,
                 self.NODE_Y + node.row * self.ROW_SPACING)
 
-    def _draw(self):
+    def _draw(self, _event=None):
         canvas = self.canvas
         canvas.delete("all")
-        canvas.configure(
-            scrollregion=(0, 0,
-                          2 * self.NODE_X + (self.columns - 1) * self.COLUMN_SPACING,
-                          2 * self.NODE_Y + (self.rows - 1) * self.ROW_SPACING)
-        )
 
         for edge in self.graph.edges:
             slot = self._slot(edge)
@@ -160,7 +147,35 @@ class CapacitorSimulator(tk.Tk):
             if is_source or is_destination:
                 canvas.create_text(x - 16, y - 20,
                                    text="S" if is_source else "End",
-                                   fill=fill, font=("Segoe UI", 9, "bold"))
+                                   fill=fill, font=("Segoe UI", 9, "bold"),
+                                   tags="node_label")
+
+        self._fit_drawing()
+
+    def _fit_drawing(self):
+        """Scale the drawing as one unit and center it in the visible canvas."""
+        canvas = self.canvas
+        bounds = canvas.bbox("all")
+        if bounds is None:
+            return
+        width, height = canvas.winfo_width(), canvas.winfo_height()
+        if width <= 1 or height <= 1:
+            return  # The first Configure event will redraw after layout.
+
+        left, top, right, bottom = bounds
+        available_width = max(1, width - 2 * self.CANVAS_PADDING)
+        available_height = max(1, height - 2 * self.CANVAS_PADDING)
+        scale = min(available_width / (right - left),
+                    available_height / (bottom - top))
+        canvas.scale("all", 0, 0, scale, scale)
+        font_size = max(7, round(9 * scale))
+        canvas.itemconfigure("cap_label", font=("Segoe UI", font_size))
+        canvas.itemconfigure("node_label", font=("Segoe UI", font_size, "bold"))
+
+        # Recheck the bounding box because Tk scales text positions, not fonts.
+        left, top, right, bottom = canvas.bbox("all")
+        canvas.move("all", (width - left - right) / 2,
+                    (height - top - bottom) / 2)
 
     def _draw_horizontal(self, slot, x, y):
         canvas = self.canvas
@@ -200,7 +215,8 @@ class CapacitorSimulator(tk.Tk):
                            fill=wire, width=3, tags=cap_tag)
         canvas.create_text(x + 96, y + 27,
                            text=f"{self.capacitances[slot]:g} pF",
-                           fill="#0f172a", font=("Segoe UI", 9), tags=cap_tag)
+                           fill="#0f172a", font=("Segoe UI", 9),
+                           tags=(cap_tag, "cap_label"))
 
         canvas.tag_bind(switch_tag, "<Button-1>",
                         lambda _event, position=slot: self._toggle(position))
@@ -245,7 +261,8 @@ class CapacitorSimulator(tk.Tk):
                            fill=wire, width=3, tags=cap_tag)
         canvas.create_text(x + 40, y + 77,
                            text=f"{self.capacitances[slot]:g} pF",
-                           fill="#0f172a", font=("Segoe UI", 9), tags=cap_tag)
+                           fill="#0f172a", font=("Segoe UI", 9),
+                           tags=(cap_tag, "cap_label"))
 
         canvas.tag_bind(switch_tag, "<Button-1>",
                         lambda _event, position=slot: self._toggle(position))

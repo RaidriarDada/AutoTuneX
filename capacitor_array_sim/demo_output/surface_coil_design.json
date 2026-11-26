@@ -1,0 +1,69 @@
+{
+  "coil_inductance_nh": 284.2473556070398,
+  "winter_check_mhz": 51.705,
+  "branch_nf": 100.0,
+  "fixed_nf": 100.0,
+  "band_khz": [
+    15.0,
+    30.0
+  ],
+  "levels": [
+    {
+      "parts": 1,
+      "branch_nf": 100.0,
+      "levels": 12,
+      "c_min_nf": 25.000000000000867,
+      "c_max_nf": 100.0000000000005,
+      "f_series_khz": [
+        943.9998278601539,
+        1887.9996557203078
+      ],
+      "f_parallel_khz": [
+        1335.0173594376965,
+        2110.8477858434035
+      ]
+    },
+    {
+      "parts": 2,
+      "branch_nf": 200.0,
+      "levels": 12,
+      "c_min_nf": 50.00000000000087,
+      "c_max_nf": 200.00000000000048,
+      "f_series_khz": [
+        667.5086797188483,
+        1335.0173594376965
+      ],
+      "f_parallel_khz": [
+        1156.1589477662662,
+        1635.0556641900605
+      ]
+    }
+  ],
+  "needed_inductance": [
+    {
+      "frequency_khz": 15.0,
+      "capacitance_nf": 100.0,
+      "inductance_mh": 1.125790929359309,
+      "turns": 62.93332185734359
+    },
+    {
+      "frequency_khz": 15.0,
+      "capacitance_nf": 200.0,
+      "inductance_mh": 0.5628954646796545,
+      "turns": 44.50057864792322
+    },
+    {
+      "frequency_khz": 30.0,
+      "capacitance_nf": 100.0,
+      "inductance_mh": 0.28144773233982723,
+      "turns": 31.466660928671796
+    },
+    {
+      "frequency_khz": 30.0,
+      "capacitance_nf": 200.0,
+      "inductance_mh": 0.14072386616991361,
+      "turns": 22.25028932396161
+    }
+  ],
+  "lowest_reachable_khz": 667.5086797188483
+}

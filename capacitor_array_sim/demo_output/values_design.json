@@ -1,0 +1,414 @@
+{
+  "loop_nh": 284.2473556070398,
+  "parts_nf": [
+    10.0,
+    47.0,
+    100.0
+  ],
+  "max_parallel": 3,
+  "reachable_nf": [
+    10.0,
+    20.0,
+    30.0,
+    47.0,
+    57.0,
+    67.0,
+    94.0,
+    100.0,
+    104.0,
+    110.0,
+    120.0,
+    141.0,
+    147.0,
+    157.0,
+    194.0,
+    200.0,
+    210.0,
+    247.0,
+    300.0
+  ],
+  "assignment_nf": [
+    300.0,
+    247.0,
+    210.0,
+    200.0,
+    194.0,
+    157.0,
+    147.0,
+    120.0,
+    110.0,
+    100.0,
+    104.0,
+    94.0
+  ],
+  "distinct_levels": 60,
+  "c_min_nf": 33.381800845505204,
+  "c_max_nf": 300.0,
+  "frequency_khz": [
+    545.0185547300202,
+    1633.8682527234798
+  ],
+  "uniform_levels": 12,
+  "states": [
+    {
+      "level": 1,
+      "state": 57,
+      "capacitance_nf": 300.0,
+      "frequency_khz": 545.0185547300202
+    },
+    {
+      "level": 2,
+      "state": 58,
+      "capacitance_nf": 247.0,
+      "frequency_khz": 600.652706719173
+    },
+    {
+      "level": 3,
+      "state": 59,
+      "capacitance_nf": 212.15881221270985,
+      "frequency_khz": 648.0990389564727
+    },
+    {
+      "level": 4,
+      "state": 55,
+      "capacitance_nf": 127.12631648985783,
+      "frequency_khz": 837.2481245801755
+    },
+    {
+      "level": 5,
+      "state": 52,
+      "capacitance_nf": 122.41685171359076,
+      "frequency_khz": 853.2009139404054
+    },
+    {
+      "level": 6,
+      "state": 56,
+      "capacitance_nf": 118.5126092509125,
+      "frequency_khz": 867.1408286745784
+    },
+    {
+      "level": 7,
+      "state": 26,
+      "capacitance_nf": 113.50109409190401,
+      "frequency_khz": 886.0778721521253
+    },
+    {
+      "level": 8,
+      "state": 27,
+      "capacitance_nf": 110.5145413870249,
+      "frequency_khz": 897.9707743512961
+    },
+    {
+      "level": 9,
+      "state": 53,
+      "capacitance_nf": 110.094858758829,
+      "frequency_khz": 899.6806828371228
+    },
+    {
+      "level": 10,
+      "state": 28,
+      "capacitance_nf": 103.0634573304162,
+      "frequency_khz": 929.8642727647556
+    },
+    {
+      "level": 11,
+      "state": 31,
+      "capacitance_nf": 100.9282677505686,
+      "frequency_khz": 939.6486743177326
+    },
+    {
+      "level": 12,
+      "state": 29,
+      "capacitance_nf": 98.65771812080582,
+      "frequency_khz": 950.3998999883969
+    },
+    {
+      "level": 13,
+      "state": 54,
+      "capacitance_nf": 96.22342621725385,
+      "frequency_khz": 962.3465788784652
+    },
+    {
+      "level": 14,
+      "state": 51,
+      "capacitance_nf": 90.77098328686114,
+      "frequency_khz": 990.8282833525415
+    },
+    {
+      "level": 15,
+      "state": 33,
+      "capacitance_nf": 90.02712981938043,
+      "frequency_khz": 994.9132457103083
+    },
+    {
+      "level": 16,
+      "state": 50,
+      "capacitance_nf": 89.07296896241742,
+      "frequency_khz": 1000.2278688642078
+    },
+    {
+      "level": 17,
+      "state": 48,
+      "capacitance_nf": 88.7720550687173,
+      "frequency_khz": 1001.9216892389489
+    },
+    {
+      "level": 18,
+      "state": 45,
+      "capacitance_nf": 87.30215319157222,
+      "frequency_khz": 1010.3211336198817
+    },
+    {
+      "level": 19,
+      "state": 49,
+      "capacitance_nf": 85.9791167131867,
+      "frequency_khz": 1018.0648087092651
+    },
+    {
+      "level": 20,
+      "state": 44,
+      "capacitance_nf": 84.73734435644526,
+      "frequency_khz": 1025.4972273433793
+    },
+    {
+      "level": 21,
+      "state": 43,
+      "capacitance_nf": 84.47706956975644,
+      "frequency_khz": 1027.0757965371586
+    },
+    {
+      "level": 22,
+      "state": 42,
+      "capacitance_nf": 83.84572335386588,
+      "frequency_khz": 1030.9354109585183
+    },
+    {
+      "level": 23,
+      "state": 46,
+      "capacitance_nf": 83.61279565797419,
+      "frequency_khz": 1032.3703970765257
+    },
+    {
+      "level": 24,
+      "state": 47,
+      "capacitance_nf": 81.82610104849002,
+      "frequency_khz": 1043.5805738883184
+    },
+    {
+      "level": 25,
+      "state": 38,
+      "capacitance_nf": 78.3119743206071,
+      "frequency_khz": 1066.73815348276
+    },
+    {
+      "level": 26,
+      "state": 40,
+      "capacitance_nf": 77.89344953188593,
+      "frequency_khz": 1069.600128793331
+    },
+    {
+      "level": 27,
+      "state": 30,
+      "capacitance_nf": 76.64724381667804,
+      "frequency_khz": 1078.2603705952833
+    },
+    {
+      "level": 28,
+      "state": 34,
+      "capacitance_nf": 75.67200040490998,
+      "frequency_khz": 1085.1863134053922
+    },
+    {
+      "level": 29,
+      "state": 36,
+      "capacitance_nf": 74.69861366184074,
+      "frequency_khz": 1092.2338810703277
+    },
+    {
+      "level": 30,
+      "state": 39,
+      "capacitance_nf": 74.32586435896594,
+      "frequency_khz": 1094.9692696980399
+    },
+    {
+      "level": 31,
+      "state": 32,
+      "capacitance_nf": 72.44088461559691,
+      "frequency_khz": 1109.1238457473376
+    },
+    {
+      "level": 32,
+      "state": 41,
+      "capacitance_nf": 71.87022666214023,
+      "frequency_khz": 1113.5184257525932
+    },
+    {
+      "level": 33,
+      "state": 6,
+      "capacitance_nf": 70.40655901497296,
+      "frequency_khz": 1125.0332429184177
+    },
+    {
+      "level": 34,
+      "state": 35,
+      "capacitance_nf": 70.27904792735205,
+      "frequency_khz": 1126.0533848128816
+    },
+    {
+      "level": 35,
+      "state": 23,
+      "capacitance_nf": 69.58442525038802,
+      "frequency_khz": 1131.659810918216
+    },
+    {
+      "level": 36,
+      "state": 37,
+      "capacitance_nf": 69.2223003524068,
+      "frequency_khz": 1134.6159943726548
+    },
+    {
+      "level": 37,
+      "state": 20,
+      "capacitance_nf": 66.90007759344896,
+      "frequency_khz": 1154.1402959592438
+    },
+    {
+      "level": 38,
+      "state": 24,
+      "capacitance_nf": 64.37257517638946,
+      "frequency_khz": 1176.5800318576937
+    },
+    {
+      "level": 39,
+      "state": 21,
+      "capacitance_nf": 60.75339680895002,
+      "frequency_khz": 1211.1184847448772
+    },
+    {
+      "level": 40,
+      "state": 7,
+      "capacitance_nf": 58.33005341580066,
+      "frequency_khz": 1236.0206543652973
+    },
+    {
+      "level": 41,
+      "state": 22,
+      "capacitance_nf": 55.97163660052611,
+      "frequency_khz": 1261.7924144299425
+    },
+    {
+      "level": 42,
+      "state": 9,
+      "capacitance_nf": 55.861562561191384,
+      "frequency_khz": 1263.034970389461
+    },
+    {
+      "level": 43,
+      "state": 18,
+      "capacitance_nf": 55.039377983478744,
+      "frequency_khz": 1272.4336817880392
+    },
+    {
+      "level": 44,
+      "state": 13,
+      "capacitance_nf": 54.56719395965324,
+      "frequency_khz": 1277.927171895915
+    },
+    {
+      "level": 45,
+      "state": 8,
+      "capacitance_nf": 54.143646408840645,
+      "frequency_khz": 1282.9158321565496
+    },
+    {
+      "level": 46,
+      "state": 25,
+      "capacitance_nf": 52.42129071237003,
+      "frequency_khz": 1303.8212654678773
+    },
+    {
+      "level": 47,
+      "state": 10,
+      "capacitance_nf": 52.01029269861781,
+      "frequency_khz": 1308.9626850323202
+    },
+    {
+      "level": 48,
+      "state": 12,
+      "capacitance_nf": 51.76480534302836,
+      "frequency_khz": 1312.0628002217877
+    },
+    {
+      "level": 49,
+      "state": 14,
+      "capacitance_nf": 50.886452045686646,
+      "frequency_khz": 1323.3381393469347
+    },
+    {
+      "level": 50,
+      "state": 19,
+      "capacitance_nf": 50.706405767719026,
+      "frequency_khz": 1325.685485551566
+    },
+    {
+      "level": 51,
+      "state": 11,
+      "capacitance_nf": 50.230994812468985,
+      "frequency_khz": 1331.944182819616
+    },
+    {
+      "level": 52,
+      "state": 15,
+      "capacitance_nf": 45.985340375236696,
+      "frequency_khz": 1392.0736482031623
+    },
+    {
+      "level": 53,
+      "state": 17,
+      "capacitance_nf": 42.22066971388091,
+      "frequency_khz": 1452.8117917776187
+    },
+    {
+      "level": 54,
+      "state": 16,
+      "capacitance_nf": 42.009112152889045,
+      "frequency_khz": 1456.4653721270788
+    },
+    {
+      "level": 55,
+      "state": 0,
+      "capacitance_nf": 41.31681281633552,
+      "frequency_khz": 1468.6168570023556
+    },
+    {
+      "level": 56,
+      "state": 3,
+      "capacitance_nf": 35.99437470240317,
+      "frequency_khz": 1573.4559839885774
+    },
+    {
+      "level": 57,
+      "state": 1,
+      "capacitance_nf": 35.84049950690161,
+      "frequency_khz": 1576.8300515358771
+    },
+    {
+      "level": 58,
+      "state": 4,
+      "capacitance_nf": 34.35518758857445,
+      "frequency_khz": 1610.555714009849
+    },
+    {
+      "level": 59,
+      "state": 2,
+      "capacitance_nf": 34.21498095641262,
+      "frequency_khz": 1613.852219320887
+    },
+    {
+      "level": 60,
+      "state": 5,
+      "capacitance_nf": 33.381800845505204,
+      "frequency_khz": 1633.8682527234798
+    }
+  ]
+}

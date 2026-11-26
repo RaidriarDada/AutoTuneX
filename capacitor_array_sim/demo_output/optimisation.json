@@ -1,0 +1,386 @@
+{
+  "states": [
+    {
+      "rank": 1,
+      "state": 5,
+      "capacitance_pf": 50.76944032423698,
+      "in_band": false
+    },
+    {
+      "rank": 2,
+      "state": 12,
+      "capacitance_pf": 52.09528423424985,
+      "in_band": false
+    },
+    {
+      "rank": 3,
+      "state": 4,
+      "capacitance_pf": 68.0010933516529,
+      "in_band": false
+    },
+    {
+      "rank": 4,
+      "state": 2,
+      "capacitance_pf": 68.00970844438622,
+      "in_band": false
+    },
+    {
+      "rank": 5,
+      "state": 8,
+      "capacitance_pf": 70.41385942417726,
+      "in_band": false
+    },
+    {
+      "rank": 6,
+      "state": 14,
+      "capacitance_pf": 70.42414109288578,
+      "in_band": false
+    },
+    {
+      "rank": 7,
+      "state": 10,
+      "capacitance_pf": 70.45150459062162,
+      "in_band": false
+    },
+    {
+      "rank": 8,
+      "state": 29,
+      "capacitance_pf": 73.02088212710203,
+      "in_band": false
+    },
+    {
+      "rank": 9,
+      "state": 15,
+      "capacitance_pf": 86.20738085308561,
+      "in_band": false
+    },
+    {
+      "rank": 10,
+      "state": 21,
+      "capacitance_pf": 88.02391398109881,
+      "in_band": false
+    },
+    {
+      "rank": 11,
+      "state": 24,
+      "capacitance_pf": 88.75419657317933,
+      "in_band": false
+    },
+    {
+      "rank": 12,
+      "state": 33,
+      "capacitance_pf": 90.12445567970332,
+      "in_band": false
+    },
+    {
+      "rank": 13,
+      "state": 3,
+      "capacitance_pf": 150.05514793832043,
+      "in_band": true
+    },
+    {
+      "rank": 14,
+      "state": 1,
+      "capacitance_pf": 150.09965242191356,
+      "in_band": true
+    },
+    {
+      "rank": 15,
+      "state": 0,
+      "capacitance_pf": 150.10278782589336,
+      "in_band": true
+    },
+    {
+      "rank": 16,
+      "state": 28,
+      "capacitance_pf": 151.1793730788612,
+      "in_band": true
+    },
+    {
+      "rank": 17,
+      "state": 11,
+      "capacitance_pf": 162.3032704176323,
+      "in_band": true
+    },
+    {
+      "rank": 18,
+      "state": 7,
+      "capacitance_pf": 162.3642860678562,
+      "in_band": true
+    },
+    {
+      "rank": 19,
+      "state": 13,
+      "capacitance_pf": 162.42113912406035,
+      "in_band": true
+    },
+    {
+      "rank": 20,
+      "state": 9,
+      "capacitance_pf": 162.57025873856512,
+      "in_band": true
+    },
+    {
+      "rank": 21,
+      "state": 6,
+      "capacitance_pf": 162.57308883380733,
+      "in_band": true
+    },
+    {
+      "rank": 22,
+      "state": 57,
+      "capacitance_pf": 164.89714705839302,
+      "in_band": true
+    },
+    {
+      "rank": 23,
+      "state": 20,
+      "capacitance_pf": 169.31221729636167,
+      "in_band": true
+    },
+    {
+      "rank": 24,
+      "state": 23,
+      "capacitance_pf": 170.7596968407477,
+      "in_band": true
+    },
+    {
+      "rank": 25,
+      "state": 26,
+      "capacitance_pf": 176.98486015538248,
+      "in_band": true
+    },
+    {
+      "rank": 26,
+      "state": 31,
+      "capacitance_pf": 176.98729587488927,
+      "in_band": true
+    },
+    {
+      "rank": 27,
+      "state": 27,
+      "capacitance_pf": 177.02772274053106,
+      "in_band": true
+    },
+    {
+      "rank": 28,
+      "state": 19,
+      "capacitance_pf": 193.40195557899372,
+      "in_band": true
+    },
+    {
+      "rank": 29,
+      "state": 58,
+      "capacitance_pf": 194.2116954843725,
+      "in_band": true
+    },
+    {
+      "rank": 30,
+      "state": 17,
+      "capacitance_pf": 199.3618088220096,
+      "in_band": true
+    },
+    {
+      "rank": 31,
+      "state": 16,
+      "capacitance_pf": 199.44034467494157,
+      "in_band": true
+    },
+    {
+      "rank": 32,
+      "state": 37,
+      "capacitance_pf": 200.73637294975964,
+      "in_band": true
+    },
+    {
+      "rank": 33,
+      "state": 36,
+      "capacitance_pf": 200.73823508351444,
+      "in_band": true
+    },
+    {
+      "rank": 34,
+      "state": 18,
+      "capacitance_pf": 208.11742675722007,
+      "in_band": true
+    },
+    {
+      "rank": 35,
+      "state": 39,
+      "capacitance_pf": 209.32541646947936,
+      "in_band": true
+    },
+    {
+      "rank": 36,
+      "state": 46,
+      "capacitance_pf": 212.94188660721653,
+      "in_band": true
+    },
+    {
+      "rank": 37,
+      "state": 53,
+      "capacitance_pf": 214.33010564222894,
+      "in_band": true
+    },
+    {
+      "rank": 38,
+      "state": 22,
+      "capacitance_pf": 215.22551333406054,
+      "in_band": true
+    },
+    {
+      "rank": 39,
+      "state": 43,
+      "capacitance_pf": 215.9471949592859,
+      "in_band": true
+    },
+    {
+      "rank": 40,
+      "state": 25,
+      "capacitance_pf": 217.08261764381484,
+      "in_band": true
+    },
+    {
+      "rank": 41,
+      "state": 34,
+      "capacitance_pf": 217.96745850136523,
+      "in_band": true
+    },
+    {
+      "rank": 42,
+      "state": 38,
+      "capacitance_pf": 217.9997240189088,
+      "in_band": true
+    },
+    {
+      "rank": 43,
+      "state": 50,
+      "capacitance_pf": 218.30594459315145,
+      "in_band": true
+    },
+    {
+      "rank": 44,
+      "state": 30,
+      "capacitance_pf": 221.68561128406958,
+      "in_band": true
+    },
+    {
+      "rank": 45,
+      "state": 35,
+      "capacitance_pf": 221.79083572866858,
+      "in_band": true
+    },
+    {
+      "rank": 46,
+      "state": 32,
+      "capacitance_pf": 222.06842574849338,
+      "in_band": true
+    },
+    {
+      "rank": 47,
+      "state": 41,
+      "capacitance_pf": 223.7011230620729,
+      "in_band": true
+    },
+    {
+      "rank": 48,
+      "state": 40,
+      "capacitance_pf": 227.5458302190814,
+      "in_band": true
+    },
+    {
+      "rank": 49,
+      "state": 42,
+      "capacitance_pf": 230.2762945885877,
+      "in_band": true
+    },
+    {
+      "rank": 50,
+      "state": 44,
+      "capacitance_pf": 231.89431223448227,
+      "in_band": true
+    },
+    {
+      "rank": 51,
+      "state": 52,
+      "capacitance_pf": 232.8852232960281,
+      "in_band": true
+    },
+    {
+      "rank": 52,
+      "state": 45,
+      "capacitance_pf": 236.17375911916776,
+      "in_band": true
+    },
+    {
+      "rank": 53,
+      "state": 51,
+      "capacitance_pf": 236.19337135701477,
+      "in_band": true
+    },
+    {
+      "rank": 54,
+      "state": 49,
+      "capacitance_pf": 238.50506126219068,
+      "in_band": true
+    },
+    {
+      "rank": 55,
+      "state": 47,
+      "capacitance_pf": 239.83941940217687,
+      "in_band": true
+    },
+    {
+      "rank": 56,
+      "state": 55,
+      "capacitance_pf": 241.8234824570447,
+      "in_band": true
+    },
+    {
+      "rank": 57,
+      "state": 56,
+      "capacitance_pf": 243.81751883341582,
+      "in_band": true
+    },
+    {
+      "rank": 58,
+      "state": 48,
+      "capacitance_pf": 245.54408073018726,
+      "in_band": true
+    },
+    {
+      "rank": 59,
+      "state": 59,
+      "capacitance_pf": 249.86094580818417,
+      "in_band": true
+    },
+    {
+      "rank": 60,
+      "state": 54,
+      "capacitance_pf": 249.9932038869605,
+      "in_band": true
+    }
+  ],
+  "c_off_pf": 0.1,
+  "band_pf": [
+    150.0,
+    250.0
+  ],
+  "values_pf": [
+    164.82704104476022,
+    194.14159752095273,
+    1993.3215801816139,
+    1999.2300935739183,
+    1988.9102031346456,
+    1815.6693115656954,
+    130.70401374733726,
+    1963.7022946222285,
+    1994.3583905557066,
+    1954.251110556233,
+    79.0701832961541,
+    1976.8588025870613
+  ],
+  "states_in_band": 48,
+  "minimum_pf": 50.76944032423698,
+  "maximum_pf": 249.9932038869605
+}
